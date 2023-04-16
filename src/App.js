@@ -12,7 +12,7 @@ const App = () => {
   const [courses, setCourses] = useState(null);
   const [loading, setLoading] = useState(true);
   const [category, setCategory] = useState(filterData[0].title);
-
+//async file
   async function fetchData() {
     setLoading(true);
     try{
