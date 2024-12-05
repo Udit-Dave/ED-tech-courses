@@ -1,0 +1,15 @@
+/* Spinner animation styles */
+.spinner {
+    width: 56px;
+    height: 56px;
+    border: 11.2px #474bff double;
+    border-left-style: solid;
+    border-radius: 50%;
+    animation: spinner-rotation 0.75s infinite linear;
+}
+
+@keyframes spinner-rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
